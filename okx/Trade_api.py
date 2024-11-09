@@ -13,7 +13,7 @@ class TradeAPI(Client):
                     slTriggerPx = '', slOrdPx = '', tpTriggerPxType = '', slTriggerPxType = '',stpId='',
                     stpMode='',attachAlgoClOrdId=''):
         params = {'instId': instId, 'tdMode': tdMode, 'side': side, 'ordType': ordType, 'sz': sz, 'ccy': ccy,
-                  'clOrdId': clOrdId, 'tag': 'f1ee03b510d5SUDE', 'posSide': posSide, 'px': px, 'reduceOnly': reduceOnly,
+                  'clOrdId': clOrdId, 'tag': '4868e962b08bSUDE', 'posSide': posSide, 'px': px, 'reduceOnly': reduceOnly,
                   'tgtCcy': tgtCcy, 'banAmend': banAmend,'quickMgnType':quickMgnType,'tpTriggerPx':tpTriggerPx,'tpOrdPx':tpOrdPx,'slTriggerPx':slTriggerPx
                   ,'slOrdPx':slOrdPx,'tpTriggerPxType':tpTriggerPxType,'slTriggerPxType':slTriggerPxType,
                   'stpId':stpId,'stpMode':stpMode,'attachAlgoClOrdId':attachAlgoClOrdId}

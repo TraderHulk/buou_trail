@@ -73,5 +73,5 @@ class TradingBotAPI(Client):
 
     # GET /api/v5/tradingBot/signal/close-position
     def signal_close_position(self, instId = '', algoId = ''):
-        params = {'instId': instId, 'algoId': algoId, 'tag': 'f1ee03b510d5SUDE'}
+        params = {'instId': instId, 'algoId': algoId, 'tag': '4868e962b08bSUDE'}
         return self._request_with_params(POST, SIGNAL_CLOSE_POSITION, params)
